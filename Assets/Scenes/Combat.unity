@@ -13170,7 +13170,7 @@ MonoBehaviour:
   boostButton: {fileID: 0}
   elixirButton: {fileID: 0}
   floatingHp: {fileID: 2261233115465165993, guid: 86ec6ca818d09d74d9e00a14e70ac0fc, type: 3}
-  tutorialResults: {fileID: 0}
+  tutorialResults: {fileID: 1025928911}
   message1: {fileID: 1261407292}
   message2: {fileID: 807500301}
   message1Accept: {fileID: 1948481366}

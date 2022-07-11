@@ -234,7 +234,7 @@ public class Combat : MonoBehaviour
         playerGameObject = playerWrapper.transform.Find("Fighter").gameObject;
         botGameObject = GameObject.FindGameObjectWithTag("FighterBot");
         results = GameObject.FindGameObjectWithTag("Results");
-        tutorialResults = GameObject.FindGameObjectWithTag("TutorialResults");
+        tutorialResults = GameObject.Find("TutorialResults");
         arena = GameObject.FindGameObjectWithTag("Arena").GetComponent<SpriteRenderer>();
         combatUI = GameObject.FindGameObjectWithTag("CombatUI");
         combatLoadingScreenUI = GameObject.FindGameObjectWithTag("CombatLoadingScreenUI");
